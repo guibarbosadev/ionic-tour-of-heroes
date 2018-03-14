@@ -1,0 +1,8 @@
+{
+  "name": "ionic2-tour-of-heroes",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
