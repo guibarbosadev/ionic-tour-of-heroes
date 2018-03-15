@@ -21,7 +21,7 @@ Exemplificação: <br>
 
 # Testando o Projeto
 
-**Para testar pelo Ionic View, use o seguinte ID: a8048e2e**
+**Para testar pelo Ionic View, use o seguinte ID: a8048e2e**<br>
 **Para obter uma cópia deste repositório e rodar onde quiser:**
 ```
 git clone https://github.com/guilhermebpereira/ionic-tour-of-heroes.git
