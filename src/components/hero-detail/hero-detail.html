@@ -1,0 +1,18 @@
+<div>
+    <h2>{{ navigationProvider.selectedHero.name | uppercase }} Details</h2>
+    <div><span>id: </span>{{navigationProvider.selectedHero.id}}</div>
+    <div>
+      <label>name:
+        <input [(ngModel)]="navigationProvider.selectedHero.name" placeholder="name"/>
+      </label>
+    </div>
+    <button ion-button color="light" (click)="goBack()">go back</button>
+    <button ion-button color="light" (click)="save()">save</button>
+  </div>
+  
+  
+  <!-- 
+  Copyright 2017-2018 Google Inc. All Rights Reserved.
+  Use of this source code is governed by an MIT-style license that
+  can be found in the LICENSE file at http://angular.io/license
+  -->

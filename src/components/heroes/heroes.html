@@ -1,0 +1,23 @@
+<div>
+
+  <h2>My Heroes</h2>
+  <div>
+    <label>Hero name:
+      <input #heroName />
+    </label>
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button ion-button color="light" (click)="add(heroName.value); heroName.value=''">
+      add
+    </button>
+  </div>
+
+  <ion-list margin-top>
+    <ion-item class="hero-item mb-5" (click)="selectedHero(hero)" *ngFor="let hero of heroes">
+      <span>{{hero.id}}</span>
+      <span>{{hero.name}}</span>
+      <button float-right  class="background-transparent " (click)="delete(hero); $event.stopPropagation()">
+        <ion-icon name="trash"></ion-icon>
+      </button>
+    </ion-item>
+  </ion-list>
+</div>

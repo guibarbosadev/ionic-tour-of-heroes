@@ -1,0 +1,9 @@
+<div margin-top>
+  <h4>Hero Search</h4>
+  <ion-searchbar #searchBox (ionInput)="search(searchBox.value)"></ion-searchbar>
+  <ion-list>
+    <button ion-item (click)="selectedHero(hero)" class="search-result-item" *ngFor="let hero of heroes$ | async">
+      {{hero.name}}
+    </button>
+  </ion-list>
+</div>

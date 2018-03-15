@@ -1,0 +1,10 @@
+.hero-item{
+  cursor: pointer;
+  background: #eeeeee; 
+}
+
+.hero-item:hover{
+  background: #DDDDDD;
+  color: #607D88;
+  left: .1em;
+}

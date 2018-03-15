@@ -1,0 +1,11 @@
+<h3 text-center>Top Heroes</h3>
+<ion-grid>
+  <ion-row>
+    <ion-col col-6 *ngFor="let hero of heroes">
+      <div class="hero-card" text-nowrap text-center (click)="selectedHero(hero)">
+        {{ hero.name }}
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+<app-hero-search></app-hero-search>

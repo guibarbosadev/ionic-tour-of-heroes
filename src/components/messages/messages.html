@@ -1,0 +1,7 @@
+<div *ngIf="messageProvider.messages.length > 0" margin-top>
+
+  <h2 class="red">Messages</h2>
+  <button class="clear" margin-bottom (click)="messageProvider.clear()">clear</button>
+  <div *ngFor='let message of messageProvider.messages'> {{message}} </div>
+
+</div>
