@@ -3,9 +3,7 @@
 Uma versão em Ionic do tutorial Tour of Heroes, produzido em Angular.<br>
 Link do tutorial: https://angular.io/tutorial<br>
 
-Todo código foi adaptado e foram seguidos os conceitos originais de Estrutura de Arquivos, 
-Data Binding, Orientação a Objetos, Hierarquia de Componentes, Serviços e HTTP. A principal diferença 
-se encontra na [navegação](#navegação), além do uso de componentes e conceitos próprios do Ionic.
+Todo código foi adaptado e foram seguidos os conceitos originais de Data Binding, Orientação a Objetos, Hierarquia de Componentes, Serviços e HTTP. A principal diferença se encontra na [navegação](#navegação), além do uso de componentes e conceitos próprios do Ionic.
 
 # Navegação
 
